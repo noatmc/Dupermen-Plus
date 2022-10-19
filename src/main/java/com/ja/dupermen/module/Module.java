@@ -99,6 +99,6 @@ public class Module {
     }
 
     public boolean fullNullCheck() {
-        return mc.player == null || mc.world == null;
+        return mc.player == null && mc.world == null;
     }
 }

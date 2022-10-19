@@ -1,4 +1,4 @@
-package com.ja.dupermen.module.client;
+package com.ja.dupermen.module.dupes;
 
 import com.ja.dupermen.event.PacketEvent;
 import com.ja.dupermen.module.Category;
@@ -41,7 +41,7 @@ public class AutoDuper extends Module {
     Setting dismount = new Setting("Dismount",false);
 
     public AutoDuper() {
-        super("Auto Duper", "Automaticly duplicates items for you", Category.DUPERMEN);
+        super("Old 2b2tAu Duper", "Automaticly duplicates items for you", Category.DUPES);
         addSetting(mode);
         addSetting(interactRange);
         addSetting(timeoutTime);
